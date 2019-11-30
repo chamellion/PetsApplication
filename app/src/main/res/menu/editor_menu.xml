@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/save_pet"
+        app:showAsAction="ifRoom"
+        android:id="@+id/save_pet"
+        android:icon="@drawable/ic_done"/>
+
+    <item
+        android:title="@string/delete_pet"
+        app:showAsAction="never"
+        android:id="@+id/delete_pet"/>
+
+</menu>
